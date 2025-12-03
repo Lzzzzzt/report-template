@@ -1,21 +1,16 @@
-#import "@preview/red-agora:0.2.0": project
+#import "../lib.typ": project
 
 #show: project.with(
-  title: "Injecting a backdoor in the xz library and taking over NASA and SpaceX spaceship tracking servers (for education purposes only)",
-  subtitle: "Second year internship report",
+  title: "UOWJI Report Template",
+  subtitle: "UOWJI",
   authors: (
-    "Amine Hadnane",
-    "Mehdi Essalehi"
-  ),
-  mentors: (
-    "Pr. John Smith (Internal)",
-    "Jane Doe (External)"
-  ),
-  jury: (
-    "Pr. John Smith",
-    "Pr. Jane Doe"
+    ("Name", "Student Number"),
   ),
   branch: "Software Engineering",
-  academic-year: "2077-2078",
-  footer-text: "ENSIAS",
+  academic-year: datetime.today().display("[month repr:short] [year]"),
+  footer-text: "UOWJI",
 )
+
+= 1
+
+== 2
